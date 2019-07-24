@@ -240,6 +240,7 @@
 		#2%
 		\hfill%
 		{\footnotesize#3}%
+		\vspace{\parsep}%
 	}\\
 }
 
