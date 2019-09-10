@@ -76,7 +76,6 @@
 \newcommand{\Classes}[1]{\renewcommand{\Classes}{#1}}
 \newcommand{\Skills}[1]{\renewcommand{\Skills}{#1}}
 
-
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
 
