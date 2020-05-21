@@ -150,13 +150,6 @@
 
 		%------------------------------------------------
 	    
-	    \ifthenelse{\equal{\Classes}{}}{}{
-			\profilesection{Classes Taken}
-			\begin{flushleft}
-				\Classes
-			\end{flushleft}
-		}
-
         \ifthenelse{\equal{\Skills}{}}{}{
 			\profilesection{Skills}
 			\begin{flushleft}
@@ -164,6 +157,13 @@
 			\end{flushleft}
 		}
 	
+		\ifthenelse{\equal{\Classes}{}}{}{
+			\profilesection{Classes Taken}
+			\begin{flushleft}
+				\Classes
+			\end{flushleft}
+		}
+
 		%------------------------------------------------
 			
 	\end{textblock}
